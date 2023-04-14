@@ -16,6 +16,97 @@ body {
     justify-content: center;
 }
 
+/* HEADER */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+    transition: 0.5s;
+	z-index: 100;
+}
+nav ul {
+    margin-left: 50rem;
+    text-align: right;
+    padding-right: 4rem;
+}
+nav h3 {
+    color: #ebeae6;
+    text-transform: uppercase;
+    font-weight: 300;
+	letter-spacing: 1rem;
+    margin-left: 5rem;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0.6rem 1rem;
+}
+nav ul li a {
+    display: inline-block;
+    color: #ebeae6;
+    text-decoration: none;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+nav ul span a {
+    display: inline-block;
+    border: 1px solid #ebeae6;
+    border-radius: 10%;
+    color: #ebeae6;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+
+nav ul li a::after {   /*part of hover effect*/
+    content: '';
+    background: #ebeae6;
+    position: absolute;
+    width: 0;
+    height: 0.1rem;
+    bottom: -0.4rem;
+    left: 0%;
+    transition: width 0.3s;
+}
+nav ul li a:hover {
+    color: #ebeae6;
+}
+nav ul li a:hover::after {
+    width: 100%;
+}
+nav ul span a:hover {
+    background: #ebeae6;
+    color: #212121;
+}
+
+/* TITLE HEADING */
+.title-heading h2 {
+    border: 1px solid white;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 1;
+    letter-spacing: 0.3rem;
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    color: #ebeae6;
+    letter-spacing: 0.2rem;
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+.title-heading h2 span {
+    opacity: 0.5;
+}
+
 /* SWIPER SLIDER */
 .swiper-container {
     width: 30%;

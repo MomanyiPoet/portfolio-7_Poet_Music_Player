@@ -12,3 +12,11 @@ let swiper = new Swiper('.swiper-container', {
     },
     loop: false,
 })
+
+let typed = new Typed('.multiple-text', {
+    strings: ["LISTEN", "LOVE", "VIBE TO"],
+    typeSpeed: 50,
+    backSpeed: 50,
+    backDelay: 4000,
+    loop: true
+})
