@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "poppins", Helvetica Neue, Arial, sans-serif;
+    overflow: hidden;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SWIPER SLIDER */
+.swiper-container {
+    width: 30%;
+    margin-top: 20rem;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    opacity: 1;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+}
+.genre-heading {
+    font-family: 'Bebas Neue', cursive;
+    color: #ebeae6;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    padding: 5rem;
+    text-align: center;
+    font-weight: 1;
+    letter-spacing: 0.3rem;
+    font-size: 3rem;
+    opacity: 0;
+}
+.genre-heading:hover {
+    opacity: 1;
+}
