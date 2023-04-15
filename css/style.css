@@ -393,6 +393,13 @@ ul li .audio-duration{
         width: 60%;
         margin-top: 10rem;
     }
+
+    /* MAIN */
+    /* WRAPPER */
+    .wrapper {
+        width: 20rem;
+        padding: 2rem 1rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -425,5 +432,16 @@ ul li .audio-duration{
     .swiper-container {
         width: 70%;
         margin-top: 10rem;
+    }
+
+    /* MAIN */
+    .main {
+        top: 10%;
+        left: 32%;
+    }
+    /* WRAPPER */
+    .wrapper {
+        width: 22rem;
+        padding: 2rem 1rem;
     }
 }
