@@ -395,14 +395,54 @@ ul li .audio-duration{
     }
 
     /* MAIN */
+    .main {
+        top: 7%;
+        left: 35%;
+    }
+    .heading {
+        top: -3rem;
+        left: -10rem;
+    }
+    .heading h3 {
+        font-size: 15rem;
+        letter-spacing: -0.7rem;
+    }
+    .heading span {
+        right: -35rem;
+        bottom: -27rem;
+    }
     /* WRAPPER */
     .wrapper {
         width: 20rem;
         padding: 2rem 1rem;
     }
+    .top-bar span{
+        font-size: 0.9rem;
+    }
+    .img-area{
+        width: 100%;
+        height: 15rem;
+    }
+    .song-details{
+        margin: 0.9rem 0 0.5rem 0;
+    }
+    .song-details .name{
+        font-size: 1.4rem;
+    }
+    .song-details .artist{
+        line-height: 2.5rem;
+    }
+
+    .progress-area{
+        height: 0.3rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
+    /* HTML BODY */
+    body {
+        touch-action: none;
+    }
 
     /* HEADER */
     nav {
@@ -436,8 +476,19 @@ ul li .audio-duration{
 
     /* MAIN */
     .main {
-        top: 10%;
+        top: 3%;
         left: 32%;
+    }
+    .heading {
+        top: -0.5rem;
+        left: -8rem;
+    }
+    .heading h3 {
+        font-size: 13rem;
+    }
+    .heading span {
+        right: -25rem;
+        bottom: -32rem;
     }
     /* WRAPPER */
     .wrapper {
