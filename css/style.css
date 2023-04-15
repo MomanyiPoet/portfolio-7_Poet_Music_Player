@@ -387,9 +387,16 @@ ul li .audio-duration{
         letter-spacing: 0.2rem;
         font-size: 3rem;
     }
+
+    /* SWIPER SLIDER */
+    .swiper-container {
+        width: 60%;
+        margin-top: 10rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
+
     /* HEADER */
     nav {
         padding: 1rem 0;
@@ -412,5 +419,11 @@ ul li .audio-duration{
         top: 10rem;
         left: 1rem;
         font-size: 2rem;
+    }
+
+    /* SWIPER SLIDER */
+    .swiper-container {
+        width: 70%;
+        margin-top: 10rem;
     }
 }
