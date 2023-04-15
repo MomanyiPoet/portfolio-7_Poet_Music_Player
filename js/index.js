@@ -14,7 +14,7 @@ let swiper = new Swiper('.swiper-container', {
 })
 
 let typed = new Typed('.multiple-text', {
-    strings: ["LISTEN", "LOVE", "VIBE TO"],
+    strings: ["POET MUSIC PLAYER", "AFRO VIBE", "NO COPYRIGHT SONGS", "POP CHRONICLES", "MIDNIGHT RAIN", "BONGO MAHABA"],
     typeSpeed: 50,
     backSpeed: 50,
     backDelay: 4000,
