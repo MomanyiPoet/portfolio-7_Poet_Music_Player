@@ -379,6 +379,14 @@ ul li .audio-duration{
         margin: 0.6rem 0.5rem;
         font-size: 0.9rem;
     }
+
+    /* TITLE HEADING */
+    .title-heading h2 {
+        top: 8rem;
+        left: 1rem;
+        letter-spacing: 0.2rem;
+        font-size: 3rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -397,5 +405,12 @@ ul li .audio-duration{
     nav ul li {
         margin: 0.6rem 0.4rem;
         font-size: 0.7rem;
+    }
+
+    /* TITLE HEADING */
+    .title-heading h2 {
+        top: 10rem;
+        left: 1rem;
+        font-size: 2rem;
     }
 }
